@@ -5,7 +5,7 @@
 ### Matakuliah: Pemrograman Web / Pert 5
 ___________________________________________________________________________________
 
-#### JavaScript ```document.write``` dan `console.log`
+#### 1. Pengenalan JavaScript `document.write` dan `console.log`
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -31,3 +31,27 @@ ________________________________________________________________________________
 
 Output:
 ![image](img/1.png)
+<br>
+
+#### 2. JavaScript Alert Box
+```
+<html>
+
+<head>
+    <title>Alert box </title>
+</head>
+
+<body>
+    <script language="javascript">
+        <!--
+        window.alert("ini merupakan pesan untuk anda");
+        //-->
+    </script>
+</body>
+
+</html>
+```
+
+Output:
+![image](img/2.png)
+<br>
