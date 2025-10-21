@@ -356,9 +356,9 @@ File: daftar_menu.html
 Output:
 ![image](img/a4.gif)
 <br>
+<p></p>
 
-
-##Pertanyaan dan Tugas
+## Pertanyaan dan Tugas
 ### 1. Buat script untuk melakukan validasi pada isian form.
    
 ```
