@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Form</title>
+    <script>
+        function validateForm() {
+            let nama = document.forms["formData"]["nama"].value;
+            let email = document.forms["formData"]["email"].value;
+            let umur = document.forms["formData"]["umur"].value;
+            let pesan = "";
+
+            if (nama == "") {
+                pesan += "- Nama tidak boleh kosong\n";
+            }
+            if (email == "") {
+                pesan += "- Email tidak boleh kosong\n";
+            } else if (!email.includes("@")) {
+                pesan += "- Format email tidak valid\n";
+            }
+            if (umur == "" || isNaN(umur)) {
+                pesan += "- Umur harus berupa angka\n";
+            } else if (umur < 17) {
+                pesan += "- Umur minimal 17 tahun\n";
+            }
+
+            if (pesan != "") {
+                alert("Terjadi kesalahan:\n" + pesan);
+                return false; // menghentikan submit
+            }
+            alert("Form berhasil dikirim!");
+            return true;
+        }
+    </script>
+</head>
+
+<body class="bg-gray-100 p-6">
+    <h2>Form Pendaftaran</h2>
+    <form name="formData" onsubmit="return validateForm()">
+        <label>Nama:</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label>Email:</label><br>
+        <input type="text" name="email"><br><br>
+
+        <label>Umur:</label><br>
+        <input type="text" name="umur"><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+
+</html>
