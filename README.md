@@ -5,7 +5,7 @@
 ### Matakuliah: Pemrograman Web / Pert 5
 ___________________________________________________________________________________
 
-#### 1. Pengenalan JavaScript `document.write` dan `console.log`
+### 1. Pengenalan JavaScript `document.write` dan `console.log`
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@ Output:
 ![image](img/1.png)
 <br>
 
-#### 2. JavaScript Alert Box
+### 2. JavaScript Alert Box
 ```
 <html>
 
@@ -56,7 +56,7 @@ Output:
 ![image](img/2.png)
 <br>
 
-#### 3. Skrip JavaScript `document.write`
+### 3. Skrip JavaScript `document.write`
 ```
 <html>
 
@@ -81,7 +81,7 @@ Output:
 ![image](img/3.png)
 <br>
 
-#### 4. JavaScript Input Data `var nama = prompt("")`
+### 4. JavaScript Input Data `var nama = prompt("")`
 ```
 <html>
 
@@ -110,7 +110,7 @@ Output:
 ![image](img/4a.png)
 <p align="center"> gambar output data </p>
 
-#### 5. JavaScript `alert` dan `onload`
+### 5. JavaScript `alert` dan `onload`
 ```
 <html>
 
@@ -133,7 +133,7 @@ Output:
 ![image](img/5.png)
 <br>
 
-#### 6. Program JavaScript Aritmatika Dasar
+### 6. Program JavaScript Aritmatika Dasar
 ```
 <html>
 
@@ -167,7 +167,7 @@ Output:
 ![image](img/a1.gif)
 <br>
 
-#### 7. JavaScript if-else
+### 7. JavaScript if-else
 ```
 <html>
 
@@ -198,7 +198,7 @@ Output:
 ![image](img/a2.gif)
 <br>
 
-#### 8. Program JavaScript Input Bilangan
+### 8. Program JavaScript Input Bilangan
 ```
 <html>
 
@@ -242,7 +242,7 @@ Output:
 ![image](img/a3.gif)
 <br>
 
-#### 9. Program JavaScript Bilang Ganjil-Genap
+### 9. Program JavaScript Bilang Ganjil-Genap
 ```
 <html>
 
@@ -272,7 +272,7 @@ Output:
 ![image](img/a4.gif)
 <br>
 
-#### 10. Program JavaScript Form Button
+### 10. Program JavaScript Form Button
 ```
 <html>
 
@@ -310,10 +310,10 @@ Output:
 ```
 
 Output:
-![image](img/a4.gif)
+![image](img/a.gif)
 <br>
 
-#### 11. Program JavaScript Check Box
+### 11. Program JavaScript Check Box
 ```
 <!--
 File: daftar_menu.html
@@ -419,5 +419,5 @@ Output:
 </html>
 ```
 Output:
-![image](img/a.gif)
+![image](img/.gif)
 <br>
