@@ -5,7 +5,7 @@
 ### Matakuliah: Pemrograman Web / Pert 5
 ___________________________________________________________________________________
 
-### Pengenalan JavaScript
+#### JavaScript ```document.write``` dan `console.log`
 ```
 <!DOCTYPE html>
 <html lang="en">
