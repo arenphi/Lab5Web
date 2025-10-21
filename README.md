@@ -104,11 +104,9 @@ Output:
 Output:
 ![image](img/4.png)
 <p align="center"> gambar input data </p> 
-<br>
 
 ![image](img/4a.png)
 <p align="center"> gambar output data </p>
-<br>
 
 #### 5. JavaScript `alert` dan `onload`
 ```
@@ -129,5 +127,6 @@ Output:
 </html>
 ```
 
+Output:
 ![image](img/5.png)
 <br>
