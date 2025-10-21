@@ -55,3 +55,79 @@ Output:
 Output:
 ![image](img/2.png)
 <br>
+
+#### 3. Skrip JavaScript `document.write`
+```
+<html>
+
+<head>
+    <title>skrip javascript</title>
+</head>
+
+<body>
+    percobaan memakai javascript:<br>
+    <script language="javascript">
+        <!--
+        document.write("selamat mencoba javascript<br>");
+        document.write("semoga sukses!");
+        //-->
+    </script>
+</body>
+
+</html>
+```
+
+Output:
+![image](img/3.png)
+<br>
+
+#### 4. JavaScript Input Data `var nama = prompt("")`
+```
+<html>
+
+<head>
+    <title>pemasukan data</title>
+</head>
+
+<body>
+    <script language="javascript">
+        <!--
+        var nama = prompt("siapa nama anda?", "masukkan nama anda");
+        document.write("hai, " + nama);
+        //-->
+    </script>
+</body>
+
+</html>
+```
+
+Output:
+![image](img/4.png)
+<p align="center"> gambar input data </p> 
+<br>
+
+![image](img/4a.png)
+<p align="center"> gambar output data </p>
+<br>
+
+#### 5. JavaScript `alert` dan `onload`
+```
+<html>
+
+<head>
+    <title>contoh program javascript</title>
+    <script language="javascript">
+        function pesan() {
+            alert("memanggil javascript lewat body onload")
+        }
+    </script>
+</head>
+
+<body onload=pesan()>
+</body>
+
+</html>
+```
+
+![image](img/5.png)
+<br>
